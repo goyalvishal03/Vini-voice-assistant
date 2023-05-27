@@ -3,7 +3,7 @@
 """
 Created on Mon Jan 10 12:29:09 2022
 
-@author: vaibhav
+@author: vishal
 """
 
 from assistant_function import *
@@ -13,8 +13,8 @@ speak("This is Vini , How can I help you")
 speak("For interactive conversation please let me know your name")
 naam = listen_Vini()
 if naam == "~":
-   speak("Couldn't understand your name. For my convinience I'll be calling you vaibhav")
-   naam = "vaibhav"
+   speak("Couldn't understand your name. For my convinience I'll be calling you vishal")
+   naam = "vishal"
 outtext = " , Good to see you "
 wish(naam + outtext)
 
@@ -153,7 +153,7 @@ while True:
 
     # this case is for comedy
     elif "who is your boyfriend" in mytext or "you single" in mytext:
-        outtext = "I am in relationship with vaibhav"
+        outtext = "I am in relationship with vishal"
         speak(outtext)
 
     # this case will search anything in wikipedia and respond's accordingly
